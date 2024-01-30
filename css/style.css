@@ -16,7 +16,7 @@
   }
 
   .background-image {
-    background-image: url('/images/faicc.jpg'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
+    background-image: url('../images/faicc.jpg'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
     background-size: cover;
     background-position: center;
     height: 100vh; /* Ajuste conforme necessário */
