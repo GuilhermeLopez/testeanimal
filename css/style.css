@@ -1,0 +1,38 @@
+@keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .fade-in {
+    animation: fade 4s ease-in-out;
+  }
+
+  .custom-font {
+    font-family: 'Bebas Neue', sans-serif;
+  }
+
+  .background-image {
+    background-image: url('/images/faicc.jpg'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Ajuste conforme necessário */
+    display: flex;
+  }
+
+  .textotopo h1{
+    font-size: 5em;
+  }
+
+  .textotopo{
+    padding-top: 2em;
+    padding-left: 2em;
+  }
+
+  .textotopo h2{
+    font-size: 1.7em;
+    font-family: 'Roboto', sans-serif;
+  }
